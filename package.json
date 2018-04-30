@@ -1,0 +1,21 @@
+{
+  "name": "temple-steward",
+  "version": "1.0.0",
+  "description": "This is a simple template manager.Help you to download your template from git server or a available url.enjoy yourself!",
+  "main": "index.js",
+  "author": "sanriqing",
+  "license": "MIT",
+  "dependencies": {
+    "colors": "^1.2.1",
+    "commander": "^2.15.1",
+    "fs-extra": "^5.0.0",
+    "ora": "^2.1.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sanriqing/temple-steward.git"
+  },
+  "bin": {
+    "tem": "./bin/tem.js"
+  }
+}
